@@ -1,0 +1,118 @@
+body{
+    display: grid;
+    grid-template-columns:   10%  90% ; 
+    font-family:Arial, Helvetica, sans-serif;
+
+}    
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 25px;
+
+}
+nav div{
+    display: flex;
+    
+
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+   
+
+}
+
+
+
+#seccion{
+    display: flex;
+   padding: 0 35px;
+    gap: 5%;
+
+}
+
+#seccion button{
+    border-radius: 25px;
+border: none;
+padding: 15px;
+}
+
+#videos{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+   
+
+}
+
+
+.fila {
+display: flex;
+gap: 10px;
+
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    
+    
+
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 10px;
+}
+
+iframe{
+    width: 100%;
+border-radius: 25px;
+
+}
+input{
+    width: 400px;
+border-radius: 25px 0 0px 25px;
+}
+
+.todo{
+    gap: 15px;
+align-items: center;
+justify-content: center;
+}
+
+.inicio{
+    display: flex;
+flex-direction: column;
+
+
+margin: 0px;
+padding: 0px;
+
+}
+.microfono{
+    border-radius: 100px;
+padding: 5px;
+margin: 5px;
+border: none;
+}
+.lupa{
+    border-radius:0px 25px 25px 0px;
+border: none;
+padding: 10px;
+}
+.filaAside{
+    display: flex;
+
+align-items: center;
+gap: 7px;
+margin-left: 10px;
+}
